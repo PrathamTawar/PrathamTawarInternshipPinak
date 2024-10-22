@@ -1,24 +1,24 @@
 let cardData = [
     {
-        icon:"./assets/emergency-service.png",
+        icon:"./dist/assets/emergency-service.png",
         title:"Emergency Plumbing Services", 
         disc:"Our plumbers are ready to go 24/7 for emergencies - including nights, weekends and holidays."
     },
 
     {
-        icon:"./assets/repairing.png",
+        icon:"./dist/assets/repairing.png",
         title:"Plumbing and Drains", 
         disc:"As the largest plumbing and drain service company, we make thousands of repairs every day."
     },
 
     {
-        icon:"./assets/drop.png",
+        icon:"./dist/assets/drop.png",
         title:"Water Damage", 
         disc:"Our teams are equipped with state-of-the-art water extraction and cleanup equipment."
     },
 
     {
-        icon:"./assets/heater.png",
+        icon:"./dist/assets/heater.png",
         title:"Water Heaters", 
         disc:"Trust Roto-Rooter for repairs and replacement of gas, electric and tankless water heaters."
     },
