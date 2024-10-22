@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(42, 23, 105) 50%, rgb(216, 222, 247) 50%);
+}
+#services 
+{
+    width: 100vw;
+}
+
+.card
+{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 5px 5px 0px black;
+}
+
+.icon
+{
+    border: solid 5px rgb(42, 23, 105);
+    border-radius: 50%;  
+    padding: 10px;
+    transform: translateY(-50%);
+}
+
+.icon img
+{
+    width: 100px;
+}
+
+@keyframes rotate
+{
+    0%
+    {
+        transform: rotate(0);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+.card:hover
+{
+    animation: rotate .3s forwards ease-in-out; 
+}
